@@ -1,7 +1,7 @@
 const characters = [
   {
     name: "Dominion",
-    image: "Images/Dominion.png",
+    image: "Dominion.png",
     role: "Hero",
     group: "Hero",
     realName: "Elijah Carter",
@@ -15,7 +15,7 @@ const characters = [
   },
   {
     name: "Pulse",
-    image: "Images/Pulse.png",
+    image: "Pulse.png",
     role: "Hero",
     group: "Hero",
     realName: "Unknown",
@@ -29,7 +29,7 @@ const characters = [
   },
   {
     name: "GhostMark",
-    image: "Images/Ghostmark.PNG",
+    image: "Ghostmark.PNG",
     role: "Hero",
     group: "Hero",
     realName: "Jake Warner",
@@ -43,7 +43,7 @@ const characters = [
   },
   {
     name: "Nocturra",
-    image: "Images/Nocturra.png",
+    image: "Nocturra.png",
     role: "Hero",
     group: "Hero",
     realName: "Selene Drakov",
@@ -57,7 +57,7 @@ const characters = [
   },
   {
     name: "Solace",
-    image: "Images/Solace.PNG",
+    image: "Solace.PNG",
     role: "Hero",
     group: "Hero",
     realName: "Unknown",
@@ -71,7 +71,7 @@ const characters = [
   },
   {
     name: "Starveil",
-    image: "Images/Starveil.PNG",
+    image: "Starveil.PNG",
     role: "Hero",
     group: "Hero",
     realName: "Unknown",
@@ -85,7 +85,7 @@ const characters = [
   },
   {
     name: "Atlas",
-    image: "Images/Atlas.png",
+    image: "Atlas.png",
     role: "Hero",
     group: "Hero",
     realName: "Clinton Bishop",
@@ -99,7 +99,7 @@ const characters = [
   },
   {
     name: "Lady Lita",
-    image: "Images/LadyLita.png",
+    image: "LadyLita.png",
     role: "Hero",
     group: "Hero",
     realName: "Linda Bates",
@@ -113,7 +113,7 @@ const characters = [
   },
   {
     name: "Mirella Voss",
-    image: "Images/MirellaVoss.PNG",
+    image: "MirellaVoss.PNG",
     role: "Villain",
     group: "Villain",
     realName: "Mirella Voss",
@@ -127,7 +127,7 @@ const characters = [
   },
   {
     name: "Thalassar",
-    image: "Images/Thalassar.png",
+    image: "Thalassar.png",
     role: "Villain",
     group: "Villain",
     realName: "Unknown",
@@ -141,7 +141,7 @@ const characters = [
   },
   {
     name: "Gold Rush",
-    image: "Images/GoldRush.png",
+    image: "GoldRush.png",
     role: "Villain",
     group: "Villain",
     realName: "Unknown",
@@ -155,7 +155,7 @@ const characters = [
   },
   {
     name: "Atherion",
-    image: "Images/Atherion.JPG",
+    image: "Atherion.JPG",
     role: "Hero",
     group: "Chosen 6",
     realName: "Unknown",
@@ -169,7 +169,7 @@ const characters = [
   },
   {
     name: "Vortex",
-    image: "Images/Vortex.JPG",
+    image: "Vortex.JPG",
     role: "Hero",
     group: "Chosen 6",
     realName: "Unknown",
@@ -183,7 +183,7 @@ const characters = [
   },
   {
     name: "Inferno",
-    image: "Images/Inferno.JPG",
+    image: "Inferno.JPG",
     role: "Hero",
     group: "Chosen 6",
     realName: "Unknown",
@@ -197,7 +197,7 @@ const characters = [
   },
   {
     name: "OniShade",
-    image: "Images/OniShade.JPG",
+    image: "OniShade.JPG",
     role: "Hero",
     group: "Chosen 6",
     realName: "Unknown",
@@ -211,7 +211,7 @@ const characters = [
   },
   {
     name: "Voltara",
-    image: "Images/Voltara.JPG",
+    image: "Voltara.JPG",
     role: "Hero",
     group: "Chosen 6",
     realName: "Unknown",
@@ -225,7 +225,7 @@ const characters = [
   },
   {
     name: "Mindra",
-    image: "Images/Mindra.JPG",
+    image: "Mindra.JPG",
     role: "Hero",
     group: "Chosen 6",
     realName: "Unknown",
