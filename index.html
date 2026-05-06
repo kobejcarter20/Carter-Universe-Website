@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carter Comics Universe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo-area">
+    <img src="images/Logo.PNG" class="logo" alt="Carter Comics Logo">
+    <div>
+      <h1>Carter Universe</h1>
+      <p>Official Character Database</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#characters">Characters</a>
+    <a href="#battle">Battle Generator</a>
+  </nav>
+</header>
+
+<section class="hero-banner">
+  <img src="images/Logo.PNG" class="banner-logo" alt="Carter Comics Logo">
+  <h2>Heroes. Villains. Legends.</h2>
+  <p>Explore character bios, origins, powers, stats, and simulate battles.</p>
+</section>
+
+<main>
+  <section id="characters" class="section">
+    <div class="section-top">
+      <h2>Character Cards</h2>
+      <input id="searchInput" type="text" placeholder="Search name or power..." />
+    </div>
+
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="Hero">Heroes</button>
+      <button class="filter-btn" data-filter="Villain">Villains</button>
+      <button class="filter-btn" data-filter="Chosen 6">Chosen 6</button>
+    </div>
+
+    <div id="characterGrid" class="character-grid"></div>
+  </section>
+
+  <section id="profilePage" class="profile-page hidden">
+    <button id="backBtn" class="back-btn">← Back</button>
+    <div id="profileContent"></div>
+  </section>
+
+  <section id="battle" class="section battle-section">
+    <h2>Battle Generator</h2>
+    <p class="muted">Choose 1v1, 2v2, or 3v3. Results are based on power stats.</p>
+
+    <div class="battle-controls">
+      <select id="battleType">
+        <option value="1">1v1</option>
+        <option value="2">2v2</option>
+        <option value="3">3v3</option>
+      </select>
+      <button id="setupBattleBtn">Set Battle</button>
+    </div>
+
+    <div class="battle-arena">
+      <div>
+        <h3>Team A</h3>
+        <div id="teamA"></div>
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div>
+        <h3>Team B</h3>
+        <div id="teamB"></div>
+      </div>
+    </div>
+
+    <button id="fightBtn" class="fight-btn">Generate Winner</button>
+
+    <div id="battleResult" class="battle-result"></div>
+  </section>
+</main>
+<footer class="footer">
+  <p>© Carter Comics 2026 — All Characters and Concepts Belong to Carter Comics</p>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
