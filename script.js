@@ -1,7 +1,7 @@
 const characters = [
   {
     name: "Dominion",
-    image: "Dominion.PNG",
+    image: "Dominion.png",
     role: "Hero",
     group: "Hero",
     realName: "Elijah Carter",
